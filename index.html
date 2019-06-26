@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="Viewport" content="width=devive-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>jiajiehsu_curtain wall_Learn By Case</title>
+  </head>
+  <body>
+
+    <nav class="nav">
+      <p class="brand">
+        <i class="fas fa-home"></i>
+        Curtain Wall
+      </p>
+
+      <div class="nav-link">
+          <a href= "#section-1">Project Data</a>
+          <a href= "#section-2">Forward</a>
+          <a href= "#section-3">TC-layer</a>
+          <a href= "#section-4">BC-layer</a>
+          <a href= "#section-5">Reference</a>
+      </div>
+
+      <!-- <div class="nav-buttons">
+        <a href="index_cn.html">Maderin</a>
+        <a href="index.html">English</a>
+      </div> -->
+    </nav>
+<!-- 123- -->
+
+  <div class="space">
+
+  </div>
+  <div class="center-column">
+
+     <div class="on-light" id="section-1">
+       <div class="container">
+         <h1>NUSEO SOMAYA</h1>
+         <img src="assets/Myphoto_1.PNG" style="width:100%; display:block; margin-left: auto; margin-right: auto;" alt="">
+         <p style="color:#ccc; float: right; font-style: italic; margin: 0 20px;">Image_3---From Reference-1</p>
+         <h2>PRJECT DATA</h2>
+         <p>NAME:</p>
+         <a>MUSEO SOUMAYA</a>
+         <p>LOCATON:</p>
+         <a href="https://www.google.com/maps/place/%E7%B4%A2%E9%A6%AC%E4%BA%9E%E5%8D%9A%E7%89%A9%E9%A4%A8/@19.4406976,-99.2068834,17z/data=!3m1!4b1!4m5!3m4!1s0x85d2021a6e3a3d09:0x9372e2224c033cb3!8m2!3d19.4406926!4d-99.2047001">MEXICO CITY, MEXICO</a>
+         <p>TYPE:</p>
+         <a>FACADE & INTERIOR CONSTRUCTION</a>
+         <p>SIZE:</p>
+         <a>8080M2 OF FACADE SURFACE / 6000M2 OF EXHIBITION SPACEO</a>
+         <p>DURATION:</p>
+         <a>JUNE 2009-MARCH 2011</a>
+         <p>CLIENT</p>
+         <a>GRUPO CARSO</a>
+         <p>PROJECT MANAGER:</p>
+         <a>PC CONSTRUCTORES</a>
+         <p>NAIN CONTRACTOR</p>
+         <a>CARSO INFRAESTRUCTURA Y CONSTRUCCION</a>
+         <p>DESIGN ARCHITECT</p>
+         <a href="http://www.fr-ee.org/"> FERNANDO ROMERO ENTERPRISE(FREE)</a>
+         <img src="assets/Myphoto_2.PNG" style="width:100%; display:block; margin-left: auto; margin-right: auto; margin-top: 30px;" alt="">
+         <p style="color:#ccc; float: right; font-style: italic; margin: 0 20px;">Image_2---From Reference-1</p>
+       </div>
+     </div>
+
+
+     <div class="on-dark" id="section-2">
+      <div class="container">
+        <h1>FORWARD</h1>
+        <p>We’re going to design and rationalize the facade of the Soumaya Museum by three steps. Gehry Technologies did
+           the whole facade design to fabrication process and we’re going to look into some of the techniques
+           they used to populate and standardize the panels(Image_3).</p>
+        <h3>FACADE-STEP</h3>
+        <p>In the first part of the steps we’ll design the facade and populate it with panels. We’re going
+           to use a variety of tools which include Lunchbox for the panel generation and Kangaroo, a physics
+           engine plugin for Grasshopper, to populate the facade and standardize the panels.</p>
+
+        <p>The second part and main part of the course will focus on clustering our panels using Machine Learning.
+           We’ll first look at some example exercises to explain what clustering algorithm we’re going to use,
+           how it works, and why we’ll use it. When we’ve understood the workflow and how the algorithm will
+           cluster our dataset, we’ll move to our facade and extract the necessary information from our panels
+           to feed into the algorithm.</p>
+
+        <p>In the last part we’ll analyze the various groups of panels created by the algorithm to see the variation
+           of the panels. Based on that we’ll create a standardized panel per group and repopulate the facade.
+           In the last step we’ll analyze our standardized facade and optimize the distances between the panels.</p>
+        <h3>STRUCTURE-STEP</h3>
+
+        <p>Thorugh five steps we will figure out the process of the facade be assembled.</p>
+
+
+
+
+        <img src="assets/Myphoto_3.PNG" style="width:100%; display:block; margin-left: auto; margin-right: auto;" alt="">
+        <p style="color:#ccc; float: right; font-style: italic; margin: 0 20px;">Image_3---From Reference-1</p>
+      </div>
+     </div>
+
+
+     <div class="on-light" id="section-3">
+       <div class="container">
+          <h1>TC-layer</h1>
+          <p>The original vision of the architect was have a hexagon pattern with only one size panel. GT implemnented a series of studies to try and achieve the original design intent. However, due to the topology of the irrational master design surface it was agreed that the pattern can not be  completed with one panel </p>
+          <p>Sinece the master design surface could not be modified, GT used a surface rationalization technique that adjusted to the curvature of surface.</p>
+          <p style=" color: rgb(72, 106, 106);">Now it is DIY time...</p>
+
+          <h2>STEP-1 _ Creating similar hexagon </h2>
+          <p>In the first part of the steps we’ll design the facade and populate it with panels. We’re going to use a variety of tools. We compare two diiferent tools to show that what different with results and how important of topology.</p>
+
+          <h4>Nested sphere packing surface rationalization</h4>
+          <p>On a flat surface with zero curvature the resulting triangles will be equal. However, when the surface is convex or concave the resulting triangles are deformed. This type of rationalization process follows the natural topology of the surface Creating a non-uniform pattern ideal for irrational geometry.</p>
+          <img src="assets/Myphoto_16.PNG" style="width:100%; display:block; margin-left: auto; margin-right: auto;" alt="">
+          <p style="color:#ccc; float: right; font-style: italic; margin: 0 20px;">Natural Topology---From Reference-1</p>
+          <h3>Compare</h3>
+          <h4>Creating by plugin: Lunchbox</h4>
+          <p>LunchBox is a plug-in for Grasshopper for exploring mathematical shapes, paneling, structures, and workflow...<a href="https://www.food4rhino.com/app/lunchbox">More+</a></p>
+          <p>Panel: 2950</p>
+          <img src="assets/Myphoto_14.PNG" style="width:60%; display:block; margin-left: auto; margin-right: auto;" alt="">
+          <p style="color:#ccc; float: right; font-style: italic; margin: 0 20px;">Creating by plugin: Lunchbox</p>
+          <!-- ----------------------------------------------------------------------------------------------------- -->
+          <h4>Creating by plugin: Kangaroo</h4>
+          <p>Kangaroo is a Live Physics engine for interactive simulation, form-finding, optimization and constraint solving...<a href="https://www.food4rhino.com/app/kangaroo-physics">More+</a></p>
+          <p>Panel: 3250</p>
+          <img src="assets/Myphoto_15.PNG" style="width:60%; display:block; margin-left: auto; margin-right: auto;" alt="">
+          <p style="color:#ccc; float: right; font-style: italic; margin: 0 20px;">Creating by plugin: Kangaroo</p>
+
+
+          <h4>These include:</h4>
+          <li>Physics engine for interactive simulation.</li>
+          <li>Form-finding.</li>
+          <li>Optimization.</li>
+          <li>constraint solving.</li>
+
+          <p>Obviously second hexgon panels which made by kangaroo look more smooth than the other. Physics engine and topology give us more options to deal with geometry. </p>
+          <h4>Topology</h4>
+          <p>When you model things in 3D, it’s always important that you get the topology right. It makes working with the model far easier and it ends up making you look like a pro modeler. First,
+             let’s define what topology actually is. Topology is the organization, flow and structure of vertices/edges/faces of a 3D model. It is how well you can organize your vertices in your 3D
+             model such that it is efficient, clean and detailed.<a href="http://thilakanathanstudios.com/2016/09/why-do-we-need-topology-in-3d-modeling/">More+</a></p>
+          <h4>Other-link:Plankton</h4>
+          <p>Plankton is a free and open library implementing the half-edge data structure for polygon meshes...<a href="https://www.grasshopper3d.com/group/plankton">More+</a></p>
+          <!-- ------------------------------------------------------------------------------------ -->
+          <h2>STEP-2 _ Clustering method explained</h2>
+          <p>Machine learning (ML) is the scientific study of algorithms and statistical models that computer systems use in order to perform a specific task effectively without using explicit instructions, relying on patterns and inference instead. For all the methods in mechine learning, we going to use clustering methods. Especially, we will introduce Gaussian Mixture Model and K-Means. </p>
+          <img src="assets/Myphoto_4.PNG" style="width:100%; display:block; margin-left: auto; margin-right: auto;" alt="">
+          <p style="color:#ccc; float: right; font-style: italic; margin: 0 20px;">Tree diagram about Mechine Learning and brief explaination</p>
+
+          <!-- ------------------------------------------------------------------------------------ -->
+          <h3 style="margin-top: 40px;">K-Means V.S Gaussian Mixture Model</h3>
+          <h4>K-Means Clustering:</h4>
+          <p>It is an algorithm, which classifies samples based on attributes/features into K number of clusters.
+             Clustering or grouping of samples is done by minimizing the distance between sample and the centroid.
+             i.e. Assign the centroid and optimize the centroid based on the distances from the points to it.
+             This is called as Hard Assignment i.e. We are certain that particular points belong to particular
+             centroid and then based on the least squares distance method, we will optimize the place of the centroid.</p>
+          <p>Advantages of K-Means:</p>
+          <li>Running Time.</li>
+          <li>Better for high dimensional data.</li>
+          <li>Easy to interpret and Implement.</li>
+          <p>Disadvantages of K-Means:</p>
+          <li>Assumes the clusters as spherical, so does not work efficiently with complex geometrical shaped data(Mostly Non-Linear</li>
+          <li>Hard Assignment might lead to mis grouping.</li>
+          <h4>Guassian Mixture:</h4>
+          <p>Instead of Hard assgning data points to a cluster, if we are uncertain about the data points where they belong or to which group, we use this method. It uses probability of a sample to determine the feasibility of it belonging to a cluster.</p>
+          <p>Advantages:</p>
+          <li>Does not assume clusters to be of any geometry. Works well with non-linear geometric distributions as well.</li>
+          <li>Does not bias the cluster sizes to have specific structures as does by K-Means (Circular).</li>
+          <p>Disadvantages:</p>
+          <li>Uses all the components it has access to, so initialization of clusters will be difficult when dimensionality of data is high.</li>
+          <li>Difficult to interpret.</li>
+          <img src="assets/Myphoto_5.PNG" style="width:100%; display:block; margin-left: auto; margin-right: auto;" alt="">
+          <p style="color:#ccc; float: right; font-style: italic; margin: 0 20px;">Different between two clustering methods. </p>
+          <p style="margin-top: 40px;">In concolusion, We can clearly see that what different we chose between the two methods from picture. It will decide how we populate and rerationalize the panel and. For brief description, we only use CM Clustering to demostrate all the process in this part.</p>
+          <!-- ------------------------------------------------------------------------------------ -->
+          <h3>Gaussian Mixture- Panel Grouping</h3>
+          <img src="assets/Myphoto_6.PNG" style="width:80%; display:block; margin-left: auto; margin-right: auto;" alt="">
+          <p style="color:#ccc; float: right; font-style: italic; margin: 0 20px;">A diagram of Gaussian Mixture where attributes are defined to determine groupings</p>
+          <h4 style="margin-top: 40px;">These include:</h4>
+          <li>Demonstrate the use of an unsupervised learning algorithm.</li>
+          <li>Group 3D panels based on geometry attributes for size and shape.</li>
+          <li>Prioritize certain attributes to affect the grouping outcomes.</li>
+          <li>Rationalize the shape</li>
+          <p>While people who does not attempt to rationalize the shape, the use of the Gaussian
+            Mixture algorithm can be used to unpack the complexity of the panel system to make decisions
+            about its development. The study could be greatly expanded to include classification based on
+            additional attributes for curvature analysis and panel edge angles.</p>
+
+          <img src="assets/Myphoto_11.PNG" style="width:80%; display:block; margin-left: auto; margin-right: auto;" alt="">
+          <p style="color:#ccc; float: right; font-style: italic; margin: 0 20px;">part of panel's view</p>'
+          <p>Why we concern about the? and why area and coner is top of what we concern?</p>
+          <p>Because of our porpose is find the similar panel on this project and the panel in heigh degree of curvature on the surface have more big deform. Obviously,area be the clearly index and coner degree have same reason too. </p>
+          <iframe src="https://giphy.com/embed/h3uhYhBadFxqg61lGO" width="640" height="360" frameBorder="0" class="giphy-embed"  style="width:60%; display:block; margin-left: auto; margin-right: auto;" allowFullScreen></iframe>
+          <p style="color:#ccc; float: right; font-style: italic; margin: 0 20px;">The panel: Group-3 to group-11 </p>
+          <p style="margin-top: 40px;">In the end, we chose area, length edges, length diagonals and angies corners to be our attribiute. Area is our fist piority to find similar panel, second is angies coner. The process will help us to do standardize panel and make them be family.</p>
+
+          <h2>STEP-3 _ standardized and optimize panel</h2>
+          <h3>Process of Standardization</h3>
+          <p>While we find all the similar panel and group them to be family, we would standardized the panel in last step because the method make all the panel to be same in family. The methods help us save money and time when we assemble the construction.</p>
+          <p>The resulting family tree of hierarchical clustering algorithm. Panel were compared against each other by chossing a branch of tree. we extract each 6 coners position X-Y and averge them to redefine the panel. The new hexagon panel to alternative all similar panel.   </p>
+          <img src="assets/Myphoto_7.PNG" style="width:80%; display:block; margin-left: auto; margin-right: auto;" alt="">
+          <p style="color:#ccc; float: right; font-style: italic; margin: 0 20px;">One For All:Eight family brench in Image. </p>
+          <img src="assets/Myphoto_13.PNG" style="width:80%; display:block; margin-left: auto; margin-right: auto;" alt="">
+          <p style="color:red; float: right; font-style: italic; margin: 0 20px;">We Are Family~</p>
+          <h4>Edge problem</h4>
+          <p>Although the Standardization process help us to assemble the panel but the process will create edge problem. the edge between the hexagon will be discontinuous because Standardization conflict with topology. The only way to solve the porblem is scale the panel, making the gap between them.</p>
+          <img src="assets/Myphoto_9.PNG" style="width:80%; display:block; margin-left: auto; margin-right: auto;" alt="">
+          <p style="color:#ccc; float: right; font-style: italic; margin: 0 20px;">The edge beween color </p>
+          <h3>Process of optimization</h3>
+          <p>Now we have different gap between different family tree. If the gap is big, the shpae will not touch the Architect's standard. If the gap is small, the worker can not install the panel.</p>
+          <p>How we find the rational distance between all the family tree?</p>
+          <h4>Galapago</h4>
+          <p>There is nothing particularly new about Evolutionary Solvers or Genetic Algorithms...<a href="https://www.grasshopper3d.com/profiles/blogs/evolutionary-principles">More+</a></p>
+          <img src="assets/Myphoto_8.PNG" style="width:80%; display:block; margin-left: auto; margin-right: auto;" alt="">
+          <p style="color:#ccc; float: right; font-style: italic; margin: 0 20px;">Galapago in grasshopper </p>
+          <h4>End View</h4>
+          <p> we’ll create a standardized panel per group and repopulate the facade.</p>
+          <img src="assets/Myphoto_12.PNG" style="width:80%; display:block; margin-left: auto; margin-right: auto;" alt="">
+          <p style="color:#ccc; float: right; font-style: italic; margin: 0 20px;">panel be group and not create gap </p>
+          <img src="assets/Myphoto_10.PNG" style="width:80%; display:block; margin-left: auto; margin-right: auto;" alt="">
+          <p style="color:#ccc; float: right; font-style: italic; margin: 0 20px;">panel be group and create gap</p>
+       </div>
+     </div>
+
+     <div class="on-dark" id="section-4">
+        <div class="container">
+          <h1>BC-layer</h1>
+          <p>To be continued...</p>
+        </div>
+     </div>
+
+     <div class="reference" id="section-5">
+        <div class="container">
+          <h1>REFERENCE</h1>
+          <a href="https://issuu.com/gehrytech/docs/sou_06_issuu_version/38">
+              link-1 </a>
+          <a href="https://provingground.io/2018/03/12/new-machine-learning-examples-with-lunchboxml/">
+              link-2</a>
+          <a href="https://www.grasshopper3d.com/photo/copycating-the-soumaya-museum-guys ">
+              link-3</a>
+          <a href="http://www.fr-ee.org/project ">
+              link-4</a>
+          <a href="https://thinkparametric.com/courses/panel-clustering-using-machine-learning-soumaya-museum ">
+              link-5</a>
+          <a href="http://blog.pluskid.org/?tag=clustering ">
+              link-6</a>
+          <a href="https://www.quora.com/What-is-the-difference-between-K-means-and-the-mixture-model-of-Gaussian ">
+              link-7</a>
+          <a href="http://www.vitosirago.net/?p=183&fbclid=IwAR2GLdhSSdHCXZgw8-9RJe45f1qgjnytmZN_cIZH4AsOZ641K2TG63CXG2k">
+              link-8</a>
+          <p style="float:right; font-style:italic;">--Data Collecting and Compaction by JIAJIE HSU--</p>
+        </div>
+     </div>
+   </div>
+
+
+
+
+  </body>
+</html>
